@@ -1,4 +1,3 @@
-Package contains few sweet functions, for those who likes clean and concise code.
 ```coffeescript
 # potential Gruntfile.coffee
 module.exports = (grunt) ->
@@ -20,8 +19,8 @@ module.exports = (grunt) ->
                                    'copy'
                                    'less'
                                    'uglify'
-                                   'watch' ]), 
-                                 [ 'grunt-groundskeeper' ]) )
+                                   'watch' ] ), 
+                        [ 'grunt-groundskeeper' ] ) )
   (registerTasks [ [ 'compile:dev', [ 'less:development'
                                       'coffee'             ] ]
                    [ 'dev'        , [ 'compile:dev'
@@ -34,3 +33,4 @@ module.exports = (grunt) ->
                                       'copy:lib_build'
                                       'copy:build_js'      ] ]
                    [ 'default'    , [ 'dev'                ] ] ] )
+```

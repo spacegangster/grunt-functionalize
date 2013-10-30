@@ -1,0 +1,15 @@
+{
+  "name"         : "grunt-functionalize",
+  "description"  : "Few short, list-oriented functions for grunt. For those who sit on coffeescript and cares about code beauty and clarity.",
+  "author"       : "ivan",
+  "version"      : "0.1.3",
+  "main"         : "grunt-functionalize",
+  "keywords"     : [ "functional",
+                     "grunt",
+                     "coffeescript" ],
+  "repository"   : { "type": "git",
+                     "url" : "http://github.com/ognivo/grunt-functionalize" },
+  "dependencies" : {
+    "lodash": "2.x"
+  }
+}

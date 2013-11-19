@@ -5,8 +5,7 @@ functionalize = (grunt) ->
     partial
     partialRight } = (require 'lodash')
 
-  { initConfig
-    file
+  { file
     loadNpmTasks
     registerTask } = grunt
 
@@ -23,7 +22,6 @@ functionalize = (grunt) ->
   {
     concat
     contrib       : (partialRight map, (partial prepend, 'grunt-contrib-'))
-    initConfig    : initConfig
     loadNpmTasks  : (partialRight each, loadNpmTasks)
     log
     readJSON      : (bind file.readJSON, file)
